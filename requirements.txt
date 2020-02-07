@@ -6,7 +6,7 @@ spacy==2.2.3
 scikit-image==0.16.2
 scikit-learn==0.22
 regex==2019.11.1
-Flask==0.12.2
+Flask==1.0
 Flask-API==1.0
 gunicorn==19.9.0
 numpy==1.18.1
