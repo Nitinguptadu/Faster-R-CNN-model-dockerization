@@ -1,0 +1,2100 @@
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/Screenshot_from_2020-01-30_13-31-49.png
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 576, in api_root
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/flask-api-upload-image/server.py'>
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 579, in api_root
+    C.use_horizontal_flips = False
+NameError: name 'C' is not defined
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 631, in api_root
+    roi_input = Input(shape=(C.num_rois, 4))
+NameError: name 'C' is not defined
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 631, in api_root
+NameError: name 'C' is not defined
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 576, in api_root
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/flask-api-upload-image/server.py'>
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 632, in api_root
+    roi_input = Input(shape=(C.num_rois, 4))
+NameError: name 'C' is not defined
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c0562697-eddc-4aa8-8635-4010fb5ef989.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1492be6-e6aa-404c-8f37-0468aa65f5ea.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1492be6-e6aa-404c-8f37-0468aa65f5ea.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1492be6-e6aa-404c-8f37-0468aa65f5ea.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c0562697-eddc-4aa8-8635-4010fb5ef989.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c0562697-eddc-4aa8-8635-4010fb5ef989.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 697, in api_root
+    test_imgs = os.listdir(test_base_path)
+NotADirectoryError: [Errno 20] Not a directory: '/home/nitin/Desktop/Faster_RCNN-x ray/Dataset/Open Images Dataset v4 (Bounding Boxes)/test/0000a175-0e68-4ca4-b1af-167204a7e0bc.jpg'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 820, in api_root
+    return send_from_directory('/home/nitin/flask-api-upload-image/uploads', test_img_name +'.png', as_attachment=True)
+UnboundLocalError: local variable 'test_img_name' referenced before assignment
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c12861f2-2d63-43f1-b615-cc6e82116faf.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 736, in api_root
+    X, ratio = format_img(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 650, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 623, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 736, in api_root
+    X, ratio = format_img(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 650, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 623, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 736, in api_root
+    X, ratio = format_img(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 650, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 623, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 723, in api_root
+    X, ratio = format_img(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 637, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 610, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/flask-api-upload-image/server.py", line 723, in api_root
+    X, ratio = format_img(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 637, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/flask-api-upload-image/server.py", line 610, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/flask-api-upload-image
+/home/nitin/flask-api-upload-image/uploads/
+saving /home/nitin/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/khus.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 802, in api_root
+    plt.imsave('/home/nitin/flask-api-upload-image/uploads/test.png', img)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py", line 2133, in imsave
+    return matplotlib.image.imsave(fname, arr, **kwargs)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 1498, in imsave
+    _png.write_png(rgba, fname, dpi=dpi)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitin/flask-api-upload-image/uploads/test.png'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/khus.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 802, in api_root
+    plt.imsave('/home/nitin/flask-api-upload-image/uploads/test.png', img)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py", line 2133, in imsave
+    return matplotlib.image.imsave(fname, arr, **kwargs)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 1498, in imsave
+    _png.write_png(rgba, fname, dpi=dpi)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitin/flask-api-upload-image/uploads/test.png'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 802, in api_root
+    plt.imsave('/home/nitin/flask-api-upload-image/Desktop/uploads/test.png', img)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py", line 2133, in imsave
+    return matplotlib.image.imsave(fname, arr, **kwargs)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 1498, in imsave
+    _png.write_png(rgba, fname, dpi=dpi)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitin/flask-api-upload-image/Desktop/uploads/test.png'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 802, in api_root
+    plt.imsave('/home/nitin/Desktop/flask-api-upload-image/Desktop/uploads/test.png', img)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/pyplot.py", line 2133, in imsave
+    return matplotlib.image.imsave(fname, arr, **kwargs)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/matplotlib/image.py", line 1498, in imsave
+    _png.write_png(rgba, fname, dpi=dpi)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nitin/Desktop/flask-api-upload-image/Desktop/uploads/test.png'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 687, in api_root
+    idx = np.random.randint(len(test_imgs))
+NameError: name 'test_imgs' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server (another copy).py", line 683, in api_root
+    test_imgs = os.listdir(test_base_path)
+NotADirectoryError: [Errno 20] Not a directory: '/home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server (another copy).py", line 687, in api_root
+    idx = np.random.randint(len(test_imgs))
+NameError: name 'test_imgs' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/0cfb46bb-a283-452f-80eb-1ed0404c9eda.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/0cef4200-5aa7-4cef-969c-ac9c0d855cc9.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/0000a175-0e68-4ca4-b1af-167204a7e0bc.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/0000a175-0e68-4ca4-b1af-167204a7e0bc.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/00a221ac-da8f-4f61-8d4f-fc195143491d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/0000a175-0e68-4ca4-b1af-167204a7e0bc.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 36, in api_root
+    a = testfunction()
+  File "/home/nitin/Desktop/flask-api-upload-image/new_deploy.py", line 530, in testfunction
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 36, in api_root
+    a = testfunction()
+  File "/home/nitin/Desktop/flask-api-upload-image/new_deploy.py", line 590, in testfunction
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 37, in api_root
+    a = testfunction()
+NameError: name 'testfunction' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 37, in api_root
+    #a = testfunction()
+NameError: name 'testfunction' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 37, in api_root
+    a = new_deploy.testfunction()
+  File "/home/nitin/Desktop/flask-api-upload-image/new_deploy.py", line 590, in testfunction
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 37, in api_root
+    a = new_deploy.testfunction()
+  File "/home/nitin/Desktop/flask-api-upload-image/new_deploy.py", line 590, in testfunction
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c031834b-2296-4991-ac96-8495ee9a1231.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c031834b-2296-4991-ac96-8495ee9a1231.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 37, in api_root
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/new_deploy.py", line 697, in testfunction
+    idx = np.random.randint(len(test_imgs))
+NameError: name 'test_imgs' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 38, in api_root
+    a = call('python', 'new_deploy.py')
+  File "/home/nitin/anaconda3/lib/python3.7/subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/nitin/anaconda3/lib/python3.7/subprocess.py", line 702, in __init__
+    raise TypeError("bufsize must be an integer")
+TypeError: bufsize must be an integer
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 38, in api_root
+    call('python', 'new_deploy.py')
+  File "/home/nitin/anaconda3/lib/python3.7/subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/home/nitin/anaconda3/lib/python3.7/subprocess.py", line 702, in __init__
+    raise TypeError("bufsize must be an integer")
+TypeError: bufsize must be an integer
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 38, in api_root
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 763, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 584, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 39, in api_root
+    a = Config()
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 69, in __init__
+    self.anchor_box_ratios = [[1, 1], [1./math.sqrt(2), 2./math.sqrt(2)], [2./math.sqrt(2), 1./math.sqrt(2)]]
+NameError: name 'math' is not defined
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/serve.py", line 38, in api_root
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 708, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 529, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/Desktop/flask-api-upload-image/serve.py'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello .html')
+NameError: name 'render_template' is not defined
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello .html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello .html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 56, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 58, in index
+    return render_template('hello.html')
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 133, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 57, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/templating.py", line 85, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 578, in upload
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c127904f-d321-4d79-b02d-599b73b0a734.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 578, in upload
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 578, in upload
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 578, in upload
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 578, in upload
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 773, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 624, in mainf
+    model_rpn.load_weights(model_path_custom, by_name=True)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/topology.py", line 2498, in load_weights
+    load_weights_from_hdf5_group_by_name(f, self.layers)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/topology.py", line 2976, in load_weights_from_hdf5_group_by_name
+    K.batch_set_value(weight_value_tuples)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2027, in batch_set_value
+    get_session().run(assign_ops, feed_dict=feed_dict)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 151, in get_session
+    _SESSION = tf.Session(config=config)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1570, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 693, in __init__
+    self._session = tf_session.TF_NewSessionRef(self._graph._c_graph, opts)
+tensorflow.python.framework.errors_impl.InternalError: CUDA runtime implicit initialization on GPU:0 failed. Status: all CUDA-capable devices are busy or unavailable
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 773, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 588, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1356, in _do_call
+    return fn(*args)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1341, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1429, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node block1_conv1/convolution}}]]
+	 [[block5_conv3/Relu/_163]]
+  (1) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node block1_conv1/convolution}}]]
+0 successful operations.
+0 derived errors ignored.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = testfunction(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 773, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 673, in mainf
+    [Y1, Y2, F] = model_rpn.predict(X)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/training.py", line 1573, in predict
+    batch_size=batch_size, verbose=verbose)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/training.py", line 1203, in _predict_loop
+    batch_outs = f(ins_batch)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2103, in __call__
+    feed_dict=feed_dict)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 950, in run
+    run_metadata_ptr)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1173, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1350, in _do_run
+    run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1370, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node block1_conv1/convolution (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:2893) ]]
+	 [[block5_conv3/Relu/_163]]
+  (1) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node block1_conv1/convolution (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:2893) ]]
+0 successful operations.
+0 derived errors ignored.
+
+Errors may have originated from an input operation.
+Input Source operations connected to node block1_conv1/convolution:
+ input_1 (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:351)	
+ block1_conv1/kernel/read (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:288)
+
+Input Source operations connected to node block1_conv1/convolution:
+ input_1 (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:351)	
+ block1_conv1/kernel/read (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:288)
+
+Original stack trace for 'block1_conv1/convolution':
+  File "/Desktop/flask-api-upload-image/server.py", line 150, in <module>
+    app.run(host='0.0.0.0', debug=False)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 739, in run_simple
+    inner()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 702, in inner
+    srv.serve_forever()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 539, in serve_forever
+    HTTPServer.serve_forever(self)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 237, in serve_forever
+    self._handle_request_noblock()
+  File "/anaconda3/lib/python3.7/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 232, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/anaconda3/lib/python3.7/http/server.py", line 426, in handle
+    self.handle_one_request()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 267, in handle_one_request
+    return self.run_wsgi()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 197, in execute
+    application_iter = app(environ, start_response)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = testfunction(saved_path)
+  File "/Desktop/flask-api-upload-image/test_deploy.py", line 773, in testfunction
+    im_path, im_name = mainf(image_save_path)
+  File "/Desktop/flask-api-upload-image/test_deploy.py", line 605, in mainf
+    shared_layers = nn_base(img_input, trainable=True)
+  File "/Desktop/flask-api-upload-image/test_deploy.py", line 205, in nn_base
+    x = Conv2D(64, (3, 3), activation='relu', padding='same', name='block1_conv1')(img_input)
+  File "/anaconda3/lib/python3.7/site-packages/keras/engine/topology.py", line 578, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/keras/layers/convolutional.py", line 164, in call
+    dilation_rate=self.dilation_rate)
+  File "/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2893, in conv2d
+    data_format='NHWC')
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/nn_ops.py", line 894, in convolution
+    name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/nn_ops.py", line 971, in convolution_internal
+    name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 1071, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1356, in _do_call
+    return fn(*args)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1341, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1429, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node block1_conv1/convolution}}]]
+	 [[block5_conv3/Relu/_163]]
+  (1) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[{{node block1_conv1/convolution}}]]
+0 successful operations.
+0 derived errors ignored.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 673, in mainf
+    [Y1, Y2, F] = model_rpn.predict(X)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/training.py", line 1573, in predict
+    batch_size=batch_size, verbose=verbose)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/engine/training.py", line 1203, in _predict_loop
+    batch_outs = f(ins_batch)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2103, in __call__
+    feed_dict=feed_dict)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 950, in run
+    run_metadata_ptr)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1173, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1350, in _do_run
+    run_metadata)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1370, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.UnknownError: 2 root error(s) found.
+  (0) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node block1_conv1/convolution (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:2893) ]]
+	 [[block5_conv3/Relu/_163]]
+  (1) Unknown: Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node block1_conv1/convolution (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:2893) ]]
+0 successful operations.
+0 derived errors ignored.
+
+Errors may have originated from an input operation.
+Input Source operations connected to node block1_conv1/convolution:
+ block1_conv1/kernel/read (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:288)	
+ input_1 (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:351)
+
+Input Source operations connected to node block1_conv1/convolution:
+ block1_conv1/kernel/read (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:288)	
+ input_1 (defined at /anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:351)
+
+Original stack trace for 'block1_conv1/convolution':
+  File "/Desktop/flask-api-upload-image/server.py", line 150, in <module>
+    app.run(host='0.0.0.0', debug=False)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 841, in run
+    run_simple(host, port, self, **options)
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 739, in run_simple
+    inner()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 702, in inner
+    srv.serve_forever()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 539, in serve_forever
+    HTTPServer.serve_forever(self)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 237, in serve_forever
+    self._handle_request_noblock()
+  File "/anaconda3/lib/python3.7/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/anaconda3/lib/python3.7/socketserver.py", line 720, in __init__
+    self.handle()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 232, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/anaconda3/lib/python3.7/http/server.py", line 426, in handle
+    self.handle_one_request()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 267, in handle_one_request
+    return self.run_wsgi()
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/anaconda3/lib/python3.7/site-packages/werkzeug/serving.py", line 197, in execute
+    application_iter = app(environ, start_response)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/Desktop/flask-api-upload-image/test_deploy.py", line 605, in mainf
+    shared_layers = nn_base(img_input, trainable=True)
+  File "/Desktop/flask-api-upload-image/test_deploy.py", line 205, in nn_base
+    x = Conv2D(64, (3, 3), activation='relu', padding='same', name='block1_conv1')(img_input)
+  File "/anaconda3/lib/python3.7/site-packages/keras/engine/topology.py", line 578, in __call__
+    output = self.call(inputs, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/keras/layers/convolutional.py", line 164, in call
+    dilation_rate=self.dilation_rate)
+  File "/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py", line 2893, in conv2d
+    data_format='NHWC')
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/nn_ops.py", line 894, in convolution
+    name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/nn_ops.py", line 971, in convolution_internal
+    name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/gen_nn_ops.py", line 1071, in conv2d
+    data_format=data_format, dilations=dilations, name=name)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1507764-540b-4036-ae74-8271effd56c5.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 670, in mainf
+    X, ratio = format_img(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 558, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 531, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1330177-9ef2-410c-a3ee-f7c1cabeddd1.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 670, in mainf
+    X, ratio = format_img(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 558, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 531, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 592, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 670, in mainf
+    X, ratio = format_img(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 558, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 531, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 78, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 592, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 78, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 592, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 78, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 592, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c0562697-eddc-4aa8-8635-4010fb5ef989.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/prediction/
+saving /home/nitin/Desktop/flask-api-upload-image/prediction/c1492be6-e6aa-404c-8f37-0468aa65f5ea.jpg
+saving /home/nitin/Desktop/flask-api-upload-image/prediction/c1492be6-e6aa-404c-8f37-0468aa65f5ea.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Desktop/flask-api-upload-image/server.py", line 85, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 670, in mainf
+    X, ratio = format_img(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 558, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/home/nitin/Desktop/flask-api-upload-image/test_deploy.py", line 531, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c13837b3-8a12-4cb3-98fd-4ff007df6aba.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1636efa-40ac-4c63-bc9b-6886165ef44d.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1937034-f8a4-4a84-a69c-213911b39907.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c0562697-eddc-4aa8-8635-4010fb5ef989.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1863155-7189-4ff6-864b-6c661f7d625f.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/c1442587-d214-456b-8a4d-59431600cabf.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/khus.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/khus.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/00b4e593-fcf8-488c-ae55-751034e26f16.jpg
+/home/nitin/Desktop/flask-api-upload-image
+/home/nitin/Desktop/flask-api-upload-image/uploads/
+saving /home/nitin/Desktop/flask-api-upload-image/uploads/00b4e593-fcf8-488c-ae55-751034e26f16.jpg
+/home/nitin/Videos/flask-api-upload-image
+/home/nitin/Videos/flask-api-upload-image/uploads/
+saving /home/nitin/Videos/flask-api-upload-image/uploads/khus.jpg
+/home/nitin/Videos/flask-api-upload-image
+/home/nitin/Videos/flask-api-upload-image/uploads/
+saving /home/nitin/Videos/flask-api-upload-image/uploads/0cfb46bb-a283-452f-80eb-1ed0404c9eda.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/nitin/anaconda3/lib/python3.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/nitin/Videos/flask-api-upload-image/app.py", line 77, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/home/nitin/Videos/flask-api-upload-image/test_deploy.py", line 593, in mainf
+    C = pickle.load(f_in)
+AttributeError: Can't get attribute 'Config' on <module '__main__' from '/home/nitin/anaconda3/bin/flask'>
+/home/nitin/Videos/flask-api-upload-image
+/home/nitin/Videos/flask-api-upload-image/uploads/
+saving /home/nitin/Videos/flask-api-upload-image/uploads/khus.jpg
+/home/nitin/Videos/flask-api-upload-image
+/home/nitin/Videos/flask-api-upload-image/uploads/
+saving /home/nitin/Videos/flask-api-upload-image/uploads/test.png
