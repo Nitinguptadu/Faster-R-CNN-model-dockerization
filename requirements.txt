@@ -1,6 +1,6 @@
 wget==3.2
 Werkzeug==0.12.2
-urllib3==1.25.7
+urllib3==1.26.5
 tqdm==4.39.0
 spacy==2.2.3
 scikit-image==0.16.2
