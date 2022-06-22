@@ -9,7 +9,7 @@ regex==2019.11.1
 Flask==0.12.2
 Flask-API==1.0
 gunicorn==19.9.0
-numpy==1.18.1
+numpy==1.22.0
 pyforest
 pandas==0.25.3
 h5py
