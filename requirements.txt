@@ -1,5 +1,5 @@
 wget==3.2
-Werkzeug==0.12.2
+Werkzeug==0.15.5
 urllib3==1.25.7
 tqdm==4.39.0
 spacy==2.2.3
